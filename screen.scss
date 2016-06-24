@@ -1,0 +1,26 @@
+.metronome-container{
+  margin-top: 40px;
+  .metronome{
+    width: 400px;
+    text-align: center;
+    h1{
+      font-size: 12rem;
+      &.first-beat{
+        color: #57c557;
+      }
+    }
+  }
+}
+
+.bordered-detail{
+  border: 1px red solid;
+  .metronome{
+    border: 1px green solid;
+    h1{
+      border: 1px blue solid;
+    }
+    button{
+      border: 1px yellow solid;
+    }
+  }
+}

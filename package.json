@@ -1,0 +1,46 @@
+{
+  "name": "react-metronome",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "test": "mocha './app/**/*.spec.js' --compilers js:babel-register",
+    "sass": "node-sass screen.scss screen.css"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "lodash": "^4.12.0",
+    "react": "^15.1.0",
+    "react-dom": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "deep-freeze": "0.0.1",
+    "eslint": "^2.11.1",
+    "eslint-plugin-react": "^5.1.1",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "node-sass": "^3.8.0",
+    "react-addons-test-utils": "^15.1.0",
+    "sass-loader": "^3.2.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
