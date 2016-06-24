@@ -5,6 +5,6 @@ require('./screen.scss');
 
 
 render(
-  <Metronome />,
+  <Metronome beatsPerSecond={150} beatsPerCycle={3} />,
   document.getElementById('app')
 );
