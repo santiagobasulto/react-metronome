@@ -1,8 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom'
+import Metronome from './app/Metronome'
 require('./screen.scss');
 
+
 render(
-  <h1>Hello World</h1>,
+  <Metronome />,
   document.getElementById('app')
 );
